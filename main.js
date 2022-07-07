@@ -1,8 +1,6 @@
 function initializer(){
   let fan = document.getElementById("fanContainer");
-
   let circle =396, toDegree = 36;
-
   for (i=1; i<=10; i++){
     let imgfile = document.createElement("img");
     imgfile.src = "./img/rectangle3.svg"
