@@ -150,7 +150,7 @@
     letter-spacing: -0.015em;
   }
 
-
+/* stand a chance text */
   .center-content .Stand{
     font-family: 'Inter';
     font-size: 18px;
@@ -264,153 +264,7 @@
     left: 20px;
   }
   
-  .lightrays img:nth-child(1){
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate1 30s linear infinite;
-  }
-
-  .lightrays img:nth-child(2){
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate2 30s linear infinite;
-  }
-  .lightrays img:nth-child(3){
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate3 30s linear infinite;
-  }
-  .lightrays img:nth-child(4){
-
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate4 30s linear infinite;
-  }
-  .lightrays img:nth-child(5){
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate5 30s linear infinite;
-  }
-  .lightrays img:nth-child(6){
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate6 30s linear infinite;
-  }
-  .lightrays img:nth-child(7){
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate7 30s linear infinite;
-  }
-  .lightrays img:nth-child(8){
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate8 30s linear infinite;
-  }
-  .lightrays img:nth-child(9){
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate9 30s linear infinite;
-  }
-  .lightrays img:nth-child(10){
-    /* border: 1px solid rgb(77, 10, 235); */
-    animation: animate10 30s linear infinite;
-  }
-
-  @keyframes animate1 {
-    0%{
-      transform:rotateZ(360deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(0deg);
-      transform-origin:right bottom;
-    }
-  }
-  @keyframes animate2 {
-    0%{
-      transform:rotateZ(324deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(-36deg);
-      transform-origin:right bottom;
-    }
-  }
-  @keyframes animate3 {
-    0%{
-      transform:rotateZ(288deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(-72deg);
-      transform-origin:right bottom;
-    }
-  }
-
-  @keyframes animate4 {
-    0%{
-      transform:rotateZ(252deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(-108deg);
-      transform-origin:right bottom;
-    }
-  }
-
-  @keyframes animate5 {
-    0%{
-      transform:rotateZ(216deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(-144deg);
-      transform-origin:right bottom;
-    }
-  }
-  @keyframes animate6 {
-    0%{
-      transform:rotateZ(180deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(-180deg);
-      transform-origin:right bottom;
-    }
-  }
-  @keyframes animate7 {
-    0%{
-      transform:rotateZ(144deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(-216deg);
-      transform-origin:right bottom;
-    }
-  }
-  @keyframes animate8 {
-    0%{
-      transform:rotateZ(108deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(-252deg);
-      transform-origin:right bottom;
-    }
-  }
-  
-  @keyframes animate9 {
-    0%{
-      transform:rotateZ(72deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(-288deg);
-      transform-origin:right bottom;
-    }
-  }
-  @keyframes animate10 {
-    0%{
-      transform:rotateZ(36deg);
-      transform-origin: right bottom;
-    }
-    100%{
-      transform: rotateZ(-324deg);
-      transform-origin:right bottom;
-    }
-  }
-  
+/* animation for fan included in javascript */
 
 
 /* .popping-stars */
@@ -465,6 +319,7 @@
   
 }
 
+/* Blinking stars */
 .blinking-stars{
   width: 100%;
   height: 100%;
