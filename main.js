@@ -20,3 +20,5 @@ function initializer(){
     fan.appendChild(imgfile);
   }
 }
+
+//changes
